@@ -1,0 +1,117 @@
+<!--index.html-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>India HealthLink Problem 1</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <link rel="stylesheet" href="vastra.css">
+    </head>
+
+    <body>
+    	<div id="container-fluid">
+    		<div id="header">
+				<a href="#"><img src="data:image/png;base64,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"></a>
+    			<div id="notification" align="right">
+    						<a href="#"><img src="https://image.flaticon.com/icons/svg/157/157281.svg"></a>
+    						<a href="#"><img src="https://image.flaticon.com/icons/svg/201/201651.svg"></a>
+    			</div>
+    				<hr>
+    		</div>
+    		<div id="bucket">
+    		<div><p id="content"><I>Welcome to vastra.com !</I></p>
+    		</div>
+    		<div id="info">
+    			<br>
+    			<p id="infro">Style is a way to say who you are without having to speak !!</p>
+    			<p id="details">Rachel Green, the all time fashion icon from F.R.I.E.N.D.S. recently seemed to stop instagram for few minutes after she joined the social media. She taught us how well-dressing can help you present yourself better. She also taught us to always wear undergarments while trying on new clothes, which used to be true until Vastra happened. <br><br>We, the Vastra team, present you thousands of collection for all age groups at minimum price. You can check the best fit for yourself according to measurement calatogue provided. In case of bulk order, please fill the excel sheet attached below. <br><br>For any help, remember, <a href="#"><u>we<br>are just a click away to assist you in placing order</u></a></p>
+    			<br>
+    			<button id="orderbutton">Order Via Excel Sheet</button>
+    			<script>
+    				document.getElementById("orderbutton").onClick=function(){
+    					alert("Open the excel sheet to continue");
+    				}
+    			</script><br><br>
+    		</div>
+    		<br><br>
+    		<table id="options">
+    			<tr>
+    				<td>
+    					<table id="product">
+    						<tr id="rowa">
+    						<td><img src="https://image.flaticon.com/icons/svg/899/899061.svg">
+    						<b> Men Clothing</b> from Rs 249</td>
+    						</tr>
+    						<tr id="rowb"><td><br>
+    							Topwear<br>Bottomwear<br>Footwear<br>Sports & Action wear<br>Fashion accessories<br>Innerwear & Sleepwear<br>Indian & Festive wear<br>Gadgets</td>
+    						</tr>
+    						<tr id="rowc"><td><br>
+    							<button id="orderbutton2" onClick="">Shop</button></td>
+    						</tr>
+    					</table>
+    				</td>
+    				 <td>
+    					<table id="product">
+    						<tr id="rowa">
+    						<td><img src="https://image.flaticon.com/icons/svg/899/899061.svg">
+    						<b> Women Clothing</b> from Rs 299</td>
+    						</tr>
+    						<tr id="rowb"><td><br>
+    							Indian and Fashion wear<br>Western wear<br>Footwear<br>Lingerie & Shopwear<br>Gadgets<br>Jewellery<br>Beauty & Personal Care<br>Sports & Active Wear<br>Sunglasses & Frames<br>Belts, Scarves & More<br>Watches  wearables</td>
+    						</tr>
+    						<tr id="rowc"><td><br>
+    							<button id="orderbutton2" onClick="">Shop</button></td>
+    						</tr>
+    					</table>
+    				</td>
+    				 <td>
+    					<table id="product">
+    						<tr id="rowa">
+    						<td><img src="https://image.flaticon.com/icons/svg/899/899061.svg">
+    						<b> Kids clothing</b> from Rs 249</td>
+    						</tr>
+    						<tr id="rowb"><td><br>
+    							Boys Clothing<br>Girls Clothing<br>Boys Footwear<br>Girls Footwear<br>Infants<br>Kids Accessories<br>Home & Bath</td>
+    						</tr>
+    						<tr id="rowc"><td><br>
+    							<button id="orderbutton2" onClick="">Shop</button></td>
+    						</tr>
+    					</table>
+    				</td>
+    			</tr>
+
+ 
+    		</table>
+    		<br><br><br>
+    		<div id="social" align="center">
+    			<a href="#">
+    				<img src="https://image.flaticon.com/icons/svg/220/220375.svg">
+    			</a>
+    			<a href="#">
+    				<img src="https://image.flaticon.com/icons/svg/72/72083.svg">
+    			</a>
+    			<a href="#">
+    				<img src="https://image.flaticon.com/icons/svg/87/87390.svg">
+    			</a>
+    			<a href="#">
+    				<img src="https://image.flaticon.com/icons/svg/1077/1077041.svg">
+    			</a>	
+    		</div>
+    		<br><br>
+    		<div id="copyright" align="center">
+    			Copyright @ 2019 Vastra Garments Pvt. Ltd.
+    		</div>
+    		<div id="right" align="center">
+    			All rights reserved
+    		</div>
+    		<br><br>
+    		<div id="endmenu" align="center">
+    			<a href="#"> Privacy Policy&emsp;|</a>
+    			<a href="#"> &emsp;Terms of Service&emsp;|</a>
+    			<a href="#"> &emsp;Service agreement&emsp;|</a>
+    			<a href="#"> &emsp;Contact Us</a>
+    		</div>
+    		<br><br>
+    	</div>
+    	</div>
+
